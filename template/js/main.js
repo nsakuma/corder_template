@@ -1,12 +1,14 @@
 // do something
 $(document).ready(function(){
-	var slider = $('.bxslider').bxSlider({
+	var slide = $('.bxslider').bxSlider({
 		auto: true,
 		controls: false,
 		pager: false,
-		speed: 1200,
-		onSlideAfter: function (){
-			slider.startAuto();
+		speed: 1000,
+		minSlides: 2,
+		moveSlides: 2,
+		onSlideAfter: function(){
+			slide.startAuto();
 		}
 	});
 });
