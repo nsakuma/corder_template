@@ -30,9 +30,9 @@ header {
 	max-height: 300px;
 	overflow: hidden;
 }
-header .bxslider li:not(:first-child) {
+/*header .bxslider li:not(:first-child) {
 	display: none;
-}
+}*/
 .bx-wrapper .bx-viewport {
 	box-shadow: none !important;
 	left: 0 !important;

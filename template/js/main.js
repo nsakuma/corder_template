@@ -6,5 +6,5 @@ $(document).ready(function(){
   	pager: false,
 		speed: 1200
   });
-  $('header .bxslider li:not(:first)').delay(2000).css('display','block');
+  // $('header .bxslider li:not(:first)').delay(2000).css('display','block');
 });
